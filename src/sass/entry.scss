@@ -1,0 +1,12 @@
+.entry {
+	margin-bottom: .5em;
+	.entry-header {
+		color: white;
+		border-radius: 25px;
+		padding: 1px 5px;
+	}
+	.fixed-color { background: $fixed-color;}
+	.added-color { background: $added-color;}
+	.changed-color { background: $changed-color;}
+	.removed-color { background: $removed-color;}
+}

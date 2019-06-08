@@ -1,0 +1,7 @@
+image:
+  registry: irori.johansson.tech
+  package: automation-liberation/changelog-frontend
+  tag: 0.1.0
+changelog:
+  Added:
+    - List all the changelog entries in the changelog backend service

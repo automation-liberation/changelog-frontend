@@ -1,0 +1,44 @@
+$version-indicator-img: url('img/circle.png');
+
+.version {
+	margin-left: 10px;
+	padding-left: 13px;
+	position: relative;
+	h3 {
+		margin-bottom: 1em;
+	}
+	.border {
+		border-left: solid lightgray 1px;
+		position: absolute;
+		top: 1.3em;
+     	bottom: -1.2em;
+		padding-left: 13px;
+		margin-left: -1em;
+	}
+	.version-indicator {
+		position: absolute;
+	    width: 1em;
+	    height: 1em;
+	    color: transparent;
+	    cursor: pointer;
+	}
+	.version-indicator:before, .version-indicator:after {
+	    position: absolute;
+	    content: '';
+	}
+	/* Pupil */
+	.version-indicator:after {
+	    /* Match body color here */
+	    border: 2px solid;
+	    border-color: blue;
+	    width: 40%;
+	    height: 40%;
+	    margin-left: -1.25em;
+	    margin-top: -.85em;
+	}
+
+	.version-indicator.shaped:after {
+	    border-radius: 100%;
+	    opacity: 1;
+	}
+}
